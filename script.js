@@ -1,4 +1,5 @@
 function firstWord(s) {
+	s=s.trim();
     if(s.length == 0){
         return s
     }
@@ -6,5 +7,5 @@ function firstWord(s) {
     return word[0];
 }
 
-const s = prompt("Enter String:");
+ const s = prompt("Enter String:");
 alert(firstWord(s));
